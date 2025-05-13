@@ -1,0 +1,55 @@
+{
+    "fewshot_cot": [
+      {
+        "image_id": "001",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "rationale": "The rebus contains the word bucket written in bold uppercase and there is a red droplet in the letter 'U', resembling a drop f liquid or blood. Putting all these clues together, the word bucket and a droplet in it signify the idiom “A drop in the bucket”. The answer is “A drop in the bucket“."
+      },
+      {
+        "image_id": "002",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "rationale": "The rebus contains the word “Edition” written three times, stacked over each other, with the one at the top underlined in red. The presence of the three editions means different editions, and the underlying one at the top. Putting all the clues together, the answer is “First Edition.”"
+      },
+      {
+        "image_id": "003",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "rationale": "The rebus contains the phrase “kick the”, written unconventionally, forming the V shape. The V shape means the bucket. Putting these clues together, the idiom is “Kick the bucket”."
+      },
+      {
+        "image_id": "004",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "rationale": "The rebus contains the words “WEATHER” Written bold black, superimposed over “FEELING” written in gray, faded in the background. Which suggests weather is overriding or covering feeling. Putting all this clues together, the answer is “Feeling under the weather”."
+      },
+      {
+        "image_id": "005",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "rationale": "The rebus contains the word “CUT” in bold black with small dots at all the corners of the word, and a red line runs across the word separating the small dots. Putting all these together, the answer is “Cut through the corners”."
+      }
+    ],
+  
+    "fewshot_nocot": [
+      {
+        "image_id": "001",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "answer": "A drop in the bucket"
+      },
+      {
+        "image_id": "002",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "answer": "Top Edition"
+      },
+      {
+        "image_id": "003",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is?",
+        "answer": "Kick the bucket"
+      }
+    ],
+  
+    "zeroshot_cot": [
+      {
+        "image_id": "006",
+        "question": "This rebus puzzle is an Idiom which may contain text, figures, and other logical clues to represent the Idiom. Can you figure out what this Idiom is? Let’s think step by step"
+      }
+    ]
+  }
+  
